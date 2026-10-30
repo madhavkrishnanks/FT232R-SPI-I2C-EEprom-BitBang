@@ -7,6 +7,12 @@ This repository combines two FT232R hardware experiments into one organized, eas
 
 The goal is to document how these devices can be controlled directly from Python using the FT232R USB-to-UART adapter, without relying on vendor libraries, and to validate the bus activity with a logic analyzer.
 
+## Logic analyzer capture
+
+![FT232R EEPROM read/write waveform](https://raw.githubusercontent.com/madhavkrishnanks/FT232R-I2C-EEPROM/main/Images/Read_Write_test_image.png)
+
+This waveform is from the original FT232R I2C EEPROM experiment and shows the successful EEPROM write and read-back transaction captured during validation.
+
 ## Repository layout
 
 ```text
